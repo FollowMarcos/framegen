@@ -1,0 +1,19 @@
+# Normalize text files to LF in the repo. Working-tree checkouts use the
+# platform's native line ending, but anything committed is LF — keeps
+# diffs clean across macOS / Linux / Windows contributors.
+* text=auto eol=lf
+
+# Treat known binary types explicitly so git doesn't try to text-normalize
+# them on checkout.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.mp4 binary
+*.zip binary

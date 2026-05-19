@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.env
+.env.local
+.te-config.json
+public/generations/
+public/editor/
+*.log
+.DS_Store
+tsconfig.tsbuildinfo

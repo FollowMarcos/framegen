@@ -1,0 +1,17 @@
+node_modules
+.next
+.git
+.gitignore
+.env
+.env.local
+.env.*.local
+public/generations
+*.log
+.DS_Store
+Dockerfile
+docker-compose.yml
+.dockerignore
+.github
+docs
+README.md
+LICENSE

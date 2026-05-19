@@ -1,0 +1,15 @@
+services:
+  frame:
+    build: .
+    image: frame
+    container_name: frame
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.local
+    volumes:
+      # Persist generations + editor docs to the host so they survive
+      # `docker compose down` and rebuilds.
+      - ./public/generations:/app/public/generations
+      - ./public/editor:/app/public/editor
+    restart: unless-stopped

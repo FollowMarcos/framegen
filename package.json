@@ -1,0 +1,44 @@
+{
+  "name": "frame",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frame — open source AI image generator. Generate, edit, and post images on your own machine via fal.ai. Local-first; no cloud account needed.",
+  "license": "MIT",
+  "author": "Marcos Fernandes",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@fal-ai/client": "^1.10.1",
+    "clsx": "^2.1.1",
+    "konva": "^10.3.0",
+    "lucide-react": "^1.14.0",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-konva": "^19.2.4",
+    "server-only": "^0.0.1",
+    "sharp": "^0.34.5",
+    "tailwind-merge": "^3.6.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.5",
+    "@tailwindcss/postcss": "^4.3.0",
+    "@types/node": "^25.7.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.6",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.3"
+  }
+}
